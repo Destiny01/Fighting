@@ -1,7 +1,8 @@
 package com.xyl.fighting;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * @author xyl on 2019/3/5
