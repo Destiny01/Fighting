@@ -9,6 +9,9 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
+/**
+ * 这个方法是对于 setStrokeJoin() 的一个补充，它用于设置 MITER 型拐角的延长线的最大值
+ */
 public class Practice11StrokeMiterView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     Path path = new Path();
@@ -41,14 +44,17 @@ public class Practice11StrokeMiterView extends View {
 
         canvas.translate(100, 100);
         // MITER 值：1
+        paint.setStrokeMiter(1);
         canvas.drawPath(path, paint);
 
         canvas.translate(300, 0);
         // MITER 值：2
+        paint.setStrokeMiter(2);
         canvas.drawPath(path, paint);
 
         canvas.translate(300, 0);
         // MITER 值：5
+        paint.setStrokeMiter(5);
         canvas.drawPath(path, paint);
 
         canvas.restore();
