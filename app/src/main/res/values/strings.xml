@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Fighting</string>
+    <string name="main_name">测试主标题</string>
+
 </resources>
