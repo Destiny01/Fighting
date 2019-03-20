@@ -1,4 +1,4 @@
-package com.xyl.fighting;
+package com.xyl.app;
 
 import org.junit.Test;
 

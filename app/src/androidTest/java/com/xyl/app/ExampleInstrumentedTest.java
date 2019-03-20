@@ -1,4 +1,4 @@
-package com.xyl.fighting;
+package com.xyl.app;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.xyl.fighting", appContext.getPackageName());
+        assertEquals("com.xyl.app", appContext.getPackageName());
     }
 }
