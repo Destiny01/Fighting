@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.xyl.view.HorizontalScrollViewEx xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="100dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="20dp"
-            android:text="有关android架构方面的知识少之又少，而对与架构的理解有关架构的文章也都是智者见智仁者见仁。在我身边听到最多的话就是架构=What？、架构=框架、架构=设计模式、架构=MVP/MVVM。那么架构到底是什么那？架构又有何用处？它在android中又能给你带来意想不到的效果？  希望有兴趣的能和各位讨论讨论。"/>
-    </ScrollView>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="100dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="20dp"
-            android:text="有关android架构方面的知识少之又少，而对与架构的理解有关架构的文章也都是智者见智仁者见仁。在我身边听到最多的话就是架构=What？、架构=框架、架构=设计模式、架构=MVP/MVVM。那么架构到底是什么那？架构又有何用处？它在android中又能给你带来意想不到的效果？  希望有兴趣的能和各位讨论讨论。"/>
-    </ScrollView>
-</com.xyl.view.HorizontalScrollViewEx>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
